@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import { Control } from "@/Control";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -48,12 +49,7 @@ export default async function RootLayout({
                     <li>
                         <Link href="/create">create</Link>
                     </li>
-                    <li>
-                        <Link href="/update/id">update</Link>
-                    </li>
-                    <li>
-                        <button>delete</button>
-                    </li>
+                    <Control />
                 </ul>
             </body>
         </html>
