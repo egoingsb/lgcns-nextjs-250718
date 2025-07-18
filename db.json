@@ -1,0 +1,14 @@
+{
+    "topics": [
+        {
+            "id": "1",
+            "title": "HTML",
+            "body": "HTML is a markup language that is used to create web pages."
+        },
+        {
+            "id": "2",
+            "title": "CSS",
+            "body": "CSS is a style sheet language that is used to design the look of the web pages."
+        }
+    ]
+}
